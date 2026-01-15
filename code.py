@@ -92,13 +92,14 @@ CRISIS_PATTERN = re.compile(
 
 def crisis_message():
     return (
-        "I’m really sorry you’re feeling this way. If you’re in immediate danger or feel like you might harm yourself, "
+        "I'm really sorry you're feeling this way. If you're in immediate danger or feel like you might harm yourself, "
         "please call your local emergency number right now.\n\n"
-        "**UK & ROI:** Samaritans 116 123 (free, 24/7)\n"
-        "**US & Canada:** Call/text **988** (Suicide & Crisis Lifeline)\n"
-        "**Elsewhere:** If you tell me your country, I can suggest local options.\n\n"
+        "UK & ROI: Samaritans 116 123 (free, 24/7)\n"
+        "US & Canada: Call or text 988 (Suicide & Crisis Lifeline)\n"
+        "Elsewhere: Tell me your country and I can suggest local options.\n\n"
         "If you can, try not to be alone right now—reach out to someone you trust."
     )
+
 
 
 SYSTEM_STYLE = (
